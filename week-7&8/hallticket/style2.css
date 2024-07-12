@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(41, 81, 184, 0.498);
+    width:100%;
+    height:100vh;
+    font-family:sans-serif;
+    }
+    .signup{
+    width:60%;
+    height:800px;
+    margin:auto;
+    background:rgb(199, 199, 214);
+    border-radius:3px;
+    }
+    .login{
+    width:360px;
+    height:320px;
+    margin:100px 0px 0px 100px;
+    background:white;
+    border-radius:3px;
+    }
+    h1{
+    text-align:center;
+    }
+    h4{
+        text-align:center;
+        padding-top:15px;
+        }
+        form{
+        width:300px;
+        margin-left:200px;
+        text-align:center;
+        }
+        form label{
+        display:flex;
+        margin-top:20px;
+        font-size:18px;
+        }
+        form input{
+        width:100%;
+        padding:7px;
+        border:none;
+        border:1px solid gray;
+        border-radius:6px;
+        outline:none;
+        }
+        input[type="submit"]{
+        width:320px;
+        height:35px;
+        margin-top:20px;
+        border:none;
+        background-color:#ff7200;
+        color:white;
+        font-size:18px;
+        cursor:pointer;
+        }
+        input[type="submit"]:hover{
+        color:white;
+        background:rgb(13,211,247);
+        }
+        p{
+        
+        text-align:center;
+        padding-top:20px;
+        font-size:15px;
+        }
+#validcss{
+    width:200px;
+  }
+  
+.hallborder{
+  width:70%;
+  min-height:360px;
+  border:2px solid black;
+  margin:auto;
+}
+.hallhead{
+  width:100%;
+  min-height:60px;
+  border-bottom:1px solid black;
+}
+.logo{
+  width:15%;
+  height:60px;
+  float:left;
+ 
+}
+.halllogo{
+  width:45px;
+  margin-left:120px;
+  
+}
+.halltitle{
+ float:left;
+ width:85%;
+ text-align:center;
+}
+
+.subtitle{
+ width:85%;
+ text-align:center;
+}
+.maintitle{
+  margin:5px 0px 0px auto;
+  
+}
+.subtitle{
+  margin-top:0px;
+}
+.halldetails{
+  width:100%;
+ 
+  min-height:10   0px;
+}
+
+.halltable{
+    width:100%;
+    text-align:center;
+    min-height:150px;
+}
