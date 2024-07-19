@@ -9,6 +9,8 @@
 <style type="text/css">
 	body{
 		background-color: rgba(41, 81, 184, 0.498);
+
+	}
 		
 	
 	.hall{
