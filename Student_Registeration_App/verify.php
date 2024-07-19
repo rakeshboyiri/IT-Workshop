@@ -16,7 +16,7 @@
     $password = $_POST['pass']; // Correct variable name
     
     if (TRUE) { //    Corrected empty check and variable name
-    // Assuming db.php contains database connection code
+    // Assuming Db_connection.php contains database connection code
 
     $query = "INSERT INTO users (fname, lname, gender, contact_address, address,
     email, password) VALUES ('$firstname', '$lastname', '$gender', '$num', '$adress',
@@ -25,16 +25,15 @@
     mysqli_query($con, $query);
     
 
-    // echo "<script type='text/javascript'>alert('Successfully Registered')</script>";
-
+   
     header("Location:login.php");
 
     } else {
 
-    // echo "<script type='text/javascript'> alert('Please Enter valid   information')</script>";
+   
     echo "failed";
 
     }
     }
 ?>
-<!-- !empty($gmail) && !empty($password) && is_numeric($num) -->
+
