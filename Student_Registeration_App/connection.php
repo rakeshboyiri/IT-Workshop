@@ -13,7 +13,7 @@
 
     foreach($result as $row){
         echo $row['fname']."  ".$row['lname'];
-        echo "<br/>";
+      
     }
 
 ?>
