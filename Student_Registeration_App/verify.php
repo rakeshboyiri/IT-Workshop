@@ -15,7 +15,7 @@
     $gmail = $_POST['email']; // Correct variable name
     $password = $_POST['pass']; // Correct variable name
     
-    if (TRUE) { //    Corrected empty check and variable name
+    if (TRUE) {
     // Assuming Db_connection.php contains database connection code
 
     $query = "INSERT INTO users (fname, lname, gender, contact_address, address,
